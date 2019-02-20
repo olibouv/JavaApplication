@@ -4,6 +4,12 @@ public class Sondage {
     private String question;
     private String[] choix;
     private Vote[] listeVote;
+    private static int nbSondage = 0;
+
+    public Sondage(){
+        nbSondage += 1;
+        id=nbSondage;
+    }
 
     public int getId(){
         return id;
