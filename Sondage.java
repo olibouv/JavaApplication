@@ -37,5 +37,10 @@ public class Sondage {
         listeVote=listeVote1;
     }
 
-    
+    public void ajouterVote(int id){
+        Vote vote = new Vote();
+        vote.setId(id);
+        listeVote.add(vote);
+    }
+
 }

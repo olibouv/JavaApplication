@@ -2,6 +2,12 @@ public class Vote {
 
     private int id;
     private int reponse;
+    private static int nbVote = 0;
+
+    public Vote(){
+        nbVote+=1;
+        id=nbVote;
+    }
 
     public int getId(){
         return id;
