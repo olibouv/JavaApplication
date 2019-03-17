@@ -289,7 +289,7 @@ public class Client extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        
+        jTextArea1.setText("");
         jButton5.setVisible(false);
         jButton2.setVisible(false);
         jButton1.setVisible(false);
